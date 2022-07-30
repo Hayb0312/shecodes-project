@@ -1,0 +1,101 @@
+h1 {
+  margin: 0;
+  line-height: 0.8;
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(223, 230, 230);
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(223, 230, 230);
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(223, 230, 230);
+}
+
+h6 {
+  color: rgb(223, 230, 230);
+  font-weight: lighter;
+}
+
+.container {
+  margin: 10px;
+  width: 500px;
+}
+
+.card-body {
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+}
+
+.location {
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 8px 12px;
+  color: rgb(223, 230, 230);
+}
+
+.today {
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(223, 230, 230);
+}
+
+.conditions {
+  font-size: 12px;
+  text-align: center;
+  padding: 80px 0 0 40px;
+  color: rgb(223, 230, 230);
+}
+
+.range {
+  font-size: 12px;
+  text-align: center;
+  padding: 80px 0 0 0;
+  color: rgb(223, 230, 230);
+}
+
+.days {
+  padding: 10px 0px 5px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(223, 230, 230);
+}
+
+.temps {
+  padding: 10px 10px 5px 0;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(223, 230, 230);
+}
+
+.rain-chance {
+  padding: 10px 5px 5px 15px;
+  font-size: 16px;
+  color: rgb(223, 230, 230);
+}
+
+.wind {
+  padding: 10px 0 5px 0;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  color: rgb(223, 230, 230);
+}
+
+#divider {
+  padding: 0;
+}
+
+#low-temp {
+  padding: 0;
+  border-left: 2px solid black;
+  color: rgb(223, 230, 230);
+}

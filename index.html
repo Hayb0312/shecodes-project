@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/39b5683dea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <! -- Nav __ >
+          
+            <div class="row">
+              
+              <form id="search-form">
+                <input type="text" id="search-input" />
+                <button type="submit" class="search-button">Search</button>
+                <br />
+                <button class="current-location-button">
+                  Current location
+                </button>
+              </form>
+            </div>
+
+            <! -- End Nav -- >
+          
+
+          <! -- Today Conditions -- >
+          <div class="row">
+            <div class="col-3 conditions">
+              <p>
+                <i class="fa fa-solid fa fa-wind"></i> 9 MPH
+                <br />
+                <i class="fa fa-solid fa fa-umbrella"></i> 90%
+                <br />
+                <i class="fa fa-solid fa fa-droplet"></i> 88%
+              </p>
+            </div>
+
+            <! -- Today Main -- >
+
+            <div class="col-6 today">
+              <h6>
+                Monday, June 27
+                <br />
+                11:46 AM
+              </h6>
+              <h1>Houston</h1>
+              <h2>88°F</h2>
+              <h3>
+                <i class="fa fa-solid fa fa-cloud-showers-heavy"></i> Rain
+              </h3>
+            </div>
+
+            <! -- Today High / Low -- >
+
+            <div class="col-3 range">
+                <div class="row">
+                  <div class="col-5" id="divider">
+                    <p>
+                      High
+                      <br />
+                      89°F
+                    </p>
+                  </div>
+                  <div class="col-5" id="low-temp">
+                    <p>
+                      Low
+                      <br />
+                      74°F
+                    </p>
+                  </div>
+                </div
+            </div>
+          </div>
+
+          <! -- End Today -- >
+          
+          <! -- 5 Day -- >
+
+          <div class="row">
+            <div class="col-4 days">
+              <p>Tues</p>
+              <p>Wed</p>
+              <p>Thurs</p>
+              <p>Fri</p>
+              <p>Sat</p>
+            </div>
+            <div class="col-3 temps">
+              <p>89° / 73° <i class="fa fa-solid fa fa-cloud"></i></p>
+              <p>92° / 76° <i class="fa fa-solid fa fa-cloud-sun"></i></p>
+              <p>96° / 78° <i class="fa fa-solid fa fa-sun"></i></p>
+              <p>95° / 78° <i class="fa fa-solid fa fa-sun"></i></p>
+              <p>88° / 75° <i class="fa fa-solid fa fa-cloud-bolt"></i></p>
+            </div>
+            <div class="col-2 rain-chance">
+              <p><i class="fa-solid fa-umbrella"></i> 25%</p>
+              <p><i class="fa-solid fa-umbrella"></i> 15%</p>
+              <p><i class="fa-solid fa-umbrella"></i> 5%</p>
+              <p><i class="fa-solid fa-umbrella"></i> 8%</p>
+              <p><i class="fa-solid fa-umbrella"></i> 80%</p>
+            </div>
+            <div class="col-3 wind">
+              <p><i class="fa-solid fa-wind"></i> 7 MPH</p>
+              <p><i class="fa-solid fa-wind"></i> 8 MPH</p>
+              <p><i class="fa-solid fa-wind"></i> 6 MPH</p>
+              <p><i class="fa-solid fa-wind"></i> 8 MPH</p>
+              <p><i class="fa-solid fa-wind"></i> 9 MPH</p>
+            </div>
+          </div>
+
+          <! -- End 5 Day -- >
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="src/index.js"></script>
+  </body>
+</html>
